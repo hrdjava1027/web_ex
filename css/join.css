@@ -1,0 +1,59 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+#wrap{
+  width: 100%;
+  height: auto;
+}
+/*container*/
+.container{
+  border: 1px solid;
+  box-sizing: border-box;
+}
+.container .join{
+  height: auto;
+  border: 1px solid;
+  box-sizing: border-box;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.container .join .join-form{
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+/*테이블 */
+table,th,td{
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
+.container .join .join-form table{
+ width: 100%;
+}
+.container .join .join-form table tr th{
+ background-color: #900f74;
+ color: #ffffff;
+ padding: 20px 0;
+ box-sizing: border-box;
+ font-size: 30px;
+}
+.container .join .join-form table tr td{
+border: 1px solid #cccccc;
+padding: 10px 20px;
+box-sizing: border-box;
+}
+.container .join .join-form table tr:nth-child(8) td textarea{
+  width: 100%;
+  resize: none;
+}
+.container .join .join-form table tr.lastTr td {
+  width: 100%;
+  background-color:#1f0733;
+  text-align: center;
+}
+.container .join .join-form table tr.lastTr td input{
+  width: 100px;
+  padding: 5px 10px;
+}

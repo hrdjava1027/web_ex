@@ -1,0 +1,14 @@
+/*footer*/
+.footer{
+  background-color: #000000;
+}
+.fcon{
+  width: 100%;
+  max-width: 1200PX;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 200px;
+  background-color: #222222;
+  color: #ffffff;
+}
